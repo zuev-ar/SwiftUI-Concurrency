@@ -44,6 +44,8 @@
 		D7F5D93C27C5291300287FF1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93B27C5291300287FF1 /* AccountView.swift */; };
 		D7F5D93E27C529BA00287FF1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93D27C529BA00287FF1 /* UserModel.swift */; };
 		D7F5D94027C52AD300287FF1 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93F27C52AD300287FF1 /* AccountViewModel.swift */; };
+		D7F5D94227C52E3F00287FF1 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D94127C52E3F00287FF1 /* ProfileCard.swift */; };
+		D7F5D94427C52F7B00287FF1 /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D94327C52F7B00287FF1 /* SFSafariViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +86,8 @@
 		D7F5D93B27C5291300287FF1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		D7F5D93D27C529BA00287FF1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		D7F5D93F27C52AD300287FF1 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		D7F5D94127C52E3F00287FF1 /* ProfileCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileCard.swift; path = "Assets/Code/15. Profile Card/ProfileCard.swift"; sourceTree = SOURCE_ROOT; };
+		D7F5D94327C52F7B00287FF1 /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 				D7F5D93127C5218A00287FF1 /* ResetPasswordView.swift */,
 				D7F5D92E27C5218A00287FF1 /* SignInView.swift */,
 				D7F5D92D27C5218A00287FF1 /* SignUpView.swift */,
+				D7F5D94127C52E3F00287FF1 /* ProfileCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				D7DFDF1627BABED7000268C7 /* LoadFromFile.swift */,
 				D7DFDF1827BABEE4000268C7 /* Extensions.swift */,
 				D7F5D93727C521AB00287FF1 /* ModalManager.swift */,
+				D7F5D94327C52F7B00287FF1 /* SFSafariViewWrapper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -345,6 +351,8 @@
 				D7F5D93827C521AB00287FF1 /* ModalManager.swift in Sources */,
 				D7F5D93327C5218A00287FF1 /* SignInView.swift in Sources */,
 				D7DFDF1927BABEE4000268C7 /* Extensions.swift in Sources */,
+				D7F5D94227C52E3F00287FF1 /* ProfileCard.swift in Sources */,
+				D7F5D94427C52F7B00287FF1 /* SFSafariViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

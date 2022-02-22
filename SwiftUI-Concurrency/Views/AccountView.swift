@@ -9,12 +9,24 @@ import SwiftUI
 
 struct AccountView: View {
     @StateObject var accountVoiewModel = AccountViewModel()
+    @State private var user: User?
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .onAppear {
-                accountVoiewModel.getUser()
+        VStack {
+            if let user = user {
+                ProfileCard(user: user)
+                    .padding(.horizontal, 8)
+            } else {
+                Text("No user")
             }
+        }
+        .task {
+            do {
+                user = try await accountVoiewModel.getUser()
+            } catch {
+                print("Error while fetchind user: \(error)")
+            }
+        }
     }
 }
 
