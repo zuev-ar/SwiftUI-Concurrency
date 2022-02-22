@@ -41,6 +41,9 @@
 		D7F5D93627C5218A00287FF1 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93127C5218A00287FF1 /* ResetPasswordView.swift */; };
 		D7F5D93827C521AB00287FF1 /* ModalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93727C521AB00287FF1 /* ModalManager.swift */; };
 		D7F5D93A27C5224E00287FF1 /* ModalManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93927C5224E00287FF1 /* ModalManagerView.swift */; };
+		D7F5D93C27C5291300287FF1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93B27C5291300287FF1 /* AccountView.swift */; };
+		D7F5D93E27C529BA00287FF1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93D27C529BA00287FF1 /* UserModel.swift */; };
+		D7F5D94027C52AD300287FF1 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93F27C52AD300287FF1 /* AccountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +81,9 @@
 		D7F5D93127C5218A00287FF1 /* ResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordView.swift; path = "Assets/Code/13. Managing modals/ResetPasswordView.swift"; sourceTree = SOURCE_ROOT; };
 		D7F5D93727C521AB00287FF1 /* ModalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalManager.swift; sourceTree = "<group>"; };
 		D7F5D93927C5224E00287FF1 /* ModalManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalManagerView.swift; sourceTree = "<group>"; };
+		D7F5D93B27C5291300287FF1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		D7F5D93D27C529BA00287FF1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		D7F5D93F27C52AD300287FF1 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,10 +173,11 @@
 		D7DCC5E827B2B7EF007ACAD0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D7DCC5D727B2B21A007ACAD0 /* ContentView.swift */,
 				D7DCC5E527B2B7D3007ACAD0 /* HomeView.swift */,
+				D7DCC5D727B2B21A007ACAD0 /* ContentView.swift */,
 				D716B3DE27BC067F0062A283 /* SectionsView.swift */,
 				D7F5D93927C5224E00287FF1 /* ModalManagerView.swift */,
+				D7F5D93B27C5291300287FF1 /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +187,7 @@
 			children = (
 				D7DFDF1427BAB7DE000268C7 /* CourseModel.swift */,
 				D716B3DA27BC01D10062A283 /* SectionModel.swift */,
+				D7F5D93D27C529BA00287FF1 /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 			children = (
 				D7E2B39B27B569FC0065A26E /* CourseViewModel.swift */,
 				D716B3DC27BC03540062A283 /* SectionViewModel.swift */,
+				D7F5D93F27C52AD300287FF1 /* AccountViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -309,7 +318,9 @@
 				D7E2B39C27B569FC0065A26E /* CourseViewModel.swift in Sources */,
 				D7F5D93527C5218A00287FF1 /* GradientButton.swift in Sources */,
 				D7E2B39927B568100065A26E /* Network.swift in Sources */,
+				D7F5D93E27C529BA00287FF1 /* UserModel.swift in Sources */,
 				D7DCC5F227B2BCC7007ACAD0 /* CourseList.swift in Sources */,
+				D7F5D93C27C5291300287FF1 /* AccountView.swift in Sources */,
 				D716B3DB27BC01D10062A283 /* SectionModel.swift in Sources */,
 				D7DCC5D827B2B21A007ACAD0 /* ContentView.swift in Sources */,
 				D7DCC5E627B2B7D3007ACAD0 /* HomeView.swift in Sources */,
@@ -320,6 +331,7 @@
 				D7F5D93227C5218A00287FF1 /* SignUpView.swift in Sources */,
 				D716B3DD27BC03540062A283 /* SectionViewModel.swift in Sources */,
 				D7DFDF1527BAB7DE000268C7 /* CourseModel.swift in Sources */,
+				D7F5D94027C52AD300287FF1 /* AccountViewModel.swift in Sources */,
 				D7F5D93427C5218A00287FF1 /* GradientIcon.swift in Sources */,
 				D7DCC5D627B2B21A007ACAD0 /* SwiftUI_ConcurrencyApp.swift in Sources */,
 				D7DCC5F027B2BC87007ACAD0 /* CourseCard.swift in Sources */,
