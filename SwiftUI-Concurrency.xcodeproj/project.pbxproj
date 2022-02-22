@@ -33,6 +33,14 @@
 		D7E2B39627B5674F0065A26E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2B39527B5674F0065A26E /* API.swift */; };
 		D7E2B39927B568100065A26E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2B39827B568100065A26E /* Network.swift */; };
 		D7E2B39C27B569FC0065A26E /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2B39B27B569FC0065A26E /* CourseViewModel.swift */; };
+		D7F5D92C27C51F9400287FF1 /* ProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D92B27C51F9400287FF1 /* ProfileIcon.swift */; };
+		D7F5D93227C5218A00287FF1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D92D27C5218A00287FF1 /* SignUpView.swift */; };
+		D7F5D93327C5218A00287FF1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D92E27C5218A00287FF1 /* SignInView.swift */; };
+		D7F5D93427C5218A00287FF1 /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D92F27C5218A00287FF1 /* GradientIcon.swift */; };
+		D7F5D93527C5218A00287FF1 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93027C5218A00287FF1 /* GradientButton.swift */; };
+		D7F5D93627C5218A00287FF1 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93127C5218A00287FF1 /* ResetPasswordView.swift */; };
+		D7F5D93827C521AB00287FF1 /* ModalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93727C521AB00287FF1 /* ModalManager.swift */; };
+		D7F5D93A27C5224E00287FF1 /* ModalManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5D93927C5224E00287FF1 /* ModalManagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +70,14 @@
 		D7E2B39527B5674F0065A26E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		D7E2B39827B568100065A26E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		D7E2B39B27B569FC0065A26E /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
+		D7F5D92B27C51F9400287FF1 /* ProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileIcon.swift; sourceTree = "<group>"; };
+		D7F5D92D27C5218A00287FF1 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = "Assets/Code/13. Managing modals/SignUpView.swift"; sourceTree = SOURCE_ROOT; };
+		D7F5D92E27C5218A00287FF1 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = "Assets/Code/13. Managing modals/SignInView.swift"; sourceTree = SOURCE_ROOT; };
+		D7F5D92F27C5218A00287FF1 /* GradientIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientIcon.swift; path = "Assets/Code/13. Managing modals/GradientIcon.swift"; sourceTree = SOURCE_ROOT; };
+		D7F5D93027C5218A00287FF1 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientButton.swift; path = "Assets/Code/13. Managing modals/GradientButton.swift"; sourceTree = SOURCE_ROOT; };
+		D7F5D93127C5218A00287FF1 /* ResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordView.swift; path = "Assets/Code/13. Managing modals/ResetPasswordView.swift"; sourceTree = SOURCE_ROOT; };
+		D7F5D93727C521AB00287FF1 /* ModalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalManager.swift; sourceTree = "<group>"; };
+		D7F5D93927C5224E00287FF1 /* ModalManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalManagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +154,12 @@
 				D7DCC5EF27B2BC87007ACAD0 /* CourseCard.swift */,
 				D7DCC5F127B2BCC7007ACAD0 /* CourseList.swift */,
 				D716B3E027BC07470062A283 /* SectionList.swift */,
+				D7F5D92B27C51F9400287FF1 /* ProfileIcon.swift */,
+				D7F5D93027C5218A00287FF1 /* GradientButton.swift */,
+				D7F5D92F27C5218A00287FF1 /* GradientIcon.swift */,
+				D7F5D93127C5218A00287FF1 /* ResetPasswordView.swift */,
+				D7F5D92E27C5218A00287FF1 /* SignInView.swift */,
+				D7F5D92D27C5218A00287FF1 /* SignUpView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -148,6 +170,7 @@
 				D7DCC5D727B2B21A007ACAD0 /* ContentView.swift */,
 				D7DCC5E527B2B7D3007ACAD0 /* HomeView.swift */,
 				D716B3DE27BC067F0062A283 /* SectionsView.swift */,
+				D7F5D93927C5224E00287FF1 /* ModalManagerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +190,7 @@
 				D7E2B39827B568100065A26E /* Network.swift */,
 				D7DFDF1627BABED7000268C7 /* LoadFromFile.swift */,
 				D7DFDF1827BABEE4000268C7 /* Extensions.swift */,
+				D7F5D93727C521AB00287FF1 /* ModalManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -283,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E2B39C27B569FC0065A26E /* CourseViewModel.swift in Sources */,
+				D7F5D93527C5218A00287FF1 /* GradientButton.swift in Sources */,
 				D7E2B39927B568100065A26E /* Network.swift in Sources */,
 				D7DCC5F227B2BCC7007ACAD0 /* CourseList.swift in Sources */,
 				D716B3DB27BC01D10062A283 /* SectionModel.swift in Sources */,
@@ -292,14 +317,21 @@
 				D716B3E127BC07470062A283 /* SectionList.swift in Sources */,
 				D7DFDF1B27BABF29000268C7 /* PreviewData.swift in Sources */,
 				D7DCC5EE27B2BAFF007ACAD0 /* FeaturedCourseList.swift in Sources */,
+				D7F5D93227C5218A00287FF1 /* SignUpView.swift in Sources */,
 				D716B3DD27BC03540062A283 /* SectionViewModel.swift in Sources */,
 				D7DFDF1527BAB7DE000268C7 /* CourseModel.swift in Sources */,
+				D7F5D93427C5218A00287FF1 /* GradientIcon.swift in Sources */,
 				D7DCC5D627B2B21A007ACAD0 /* SwiftUI_ConcurrencyApp.swift in Sources */,
 				D7DCC5F027B2BC87007ACAD0 /* CourseCard.swift in Sources */,
 				D7DCC5E427B2B67C007ACAD0 /* DateTitle.swift in Sources */,
 				D7DFDF1727BABED7000268C7 /* LoadFromFile.swift in Sources */,
 				D7E2B39627B5674F0065A26E /* API.swift in Sources */,
 				D7DCC5EA27B2B8EE007ACAD0 /* FeaturedCourseCard.swift in Sources */,
+				D7F5D92C27C51F9400287FF1 /* ProfileIcon.swift in Sources */,
+				D7F5D93627C5218A00287FF1 /* ResetPasswordView.swift in Sources */,
+				D7F5D93A27C5224E00287FF1 /* ModalManagerView.swift in Sources */,
+				D7F5D93827C521AB00287FF1 /* ModalManager.swift in Sources */,
+				D7F5D93327C5218A00287FF1 /* SignInView.swift in Sources */,
 				D7DFDF1927BABEE4000268C7 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SectionList: View {
-    @StateObject var sectionViewModel = SectionViewModel()
+    @EnvironmentObject var sectionViewModel: SectionViewModel
     
     var body: some View {
         List {
@@ -49,5 +49,6 @@ struct SectionList: View {
 struct SectionList_Previews: PreviewProvider {
     static var previews: some View {
         SectionList()
+            .environmentObject(SectionViewModel())
     }
 }

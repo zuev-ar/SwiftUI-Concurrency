@@ -10,6 +10,7 @@ import Apollo
 
 class SectionViewModel: ObservableObject {
     @Published public var sections: [SectionDataCollection.SectionModel] = []
+    @Published public private(set) var filteredSections: [SectionDataCollection.SectionModel] = []
     
     private func querySections() async throws -> GraphQLResult<SectionQuery.Data>? {
         return await withCheckedContinuation({ continuation in
@@ -53,5 +54,17 @@ class SectionViewModel: ObservableObject {
     
     func ordersectionsByPinned() {
         sections.sort { $0.isPinned && !$1.isPinned }
+    }
+    
+    func filterSections(for text: String) {
+        filteredSections = []
+        let searchText = text.lowercased()
+        
+        sections.forEach { section in
+            let searchContent = section.title
+            if searchContent.lowercased().range(of: searchText, options: .regularExpression) != nil {
+                filteredSections.append(section)
+            }
+        }
     }
 }
