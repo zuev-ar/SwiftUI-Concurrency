@@ -36,3 +36,17 @@ struct User: Identifiable, Decodable {
         var bs: String
     }
 }
+
+actor Description {
+    var content: String
+    
+    init(content: String) {
+        self.content = content
+    }
+}
+
+extension Description {
+    func update(with newContent: String) {
+        self.content = newContent
+    }
+}
