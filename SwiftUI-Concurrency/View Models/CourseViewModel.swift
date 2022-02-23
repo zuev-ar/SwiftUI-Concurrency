@@ -13,7 +13,8 @@ enum FeaturedSubject: String, CaseIterable {
     case Design = "Design"
 }
 
-class CourseViewModel: ObservableObject{
+@MainActor
+class CourseViewModel: ObservableObject {
     @Published public private(set) var courses: [Course] = []
     @Published public private(set) var featuredCourses: [Course] = []
     
@@ -41,9 +42,9 @@ class CourseViewModel: ObservableObject{
             let result = try await queryCourses()
             if let result = result {
                 if let courseCollection = result.data?.courseCollection {
-                    DispatchQueue.main.async {
+//                    DispatchQueue.main.async {
                         self.courses = self.process(data: courseCollection)
-                    }
+//                    }
                     findFeaturedCourses()
                 }
             }
@@ -61,10 +62,10 @@ class CourseViewModel: ObservableObject{
     private func findFeaturedCourses() {
         guard courses.count > 0 else { return }
         
-        DispatchQueue.main.async {
+//        DispatchQueue.main.async {
             self.featuredCourses = self.courses.filter { course in
                 course.subject == self.featuredSubject.rawValue
-            }
+//            }
         }
     }
 }

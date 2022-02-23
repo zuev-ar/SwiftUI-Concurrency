@@ -45,6 +45,9 @@ struct HomeView: View {
                     
                     FeaturedCourseList(featuredCourses: courseViewModel.featuredCourses)
                         .padding(.top, 20)
+//                        .task {
+//                            await courseViewModel.fetch()
+//                        }
                     
                     Text("All courses")
                         .fontWeight(.bold)

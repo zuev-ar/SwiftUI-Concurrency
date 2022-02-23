@@ -11,17 +11,19 @@ struct FeaturedCourseCard: View {
     var featuredCourses: Course
     
     var body: some View {
-        AsyncImage(url: URL(string: featuredCourses.illustration)) { image in
-            image
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(maxWidth: 220, alignment: .center)
-        } placeholder: {
-            Rectangle()
-                .foregroundColor(.gray.opacity(0.2))
-        }
-        
         VStack(spacing: 8) {
+            AsyncImage(url: URL(string: featuredCourses.illustration)) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(maxWidth: 220, alignment: .center)
+            } placeholder: {
+                Rectangle()
+                    .foregroundColor(.gray.opacity(0.2))
+            }
+        
+            Spacer()
+        
             Text(featuredCourses.title)
                 .font(.title)
                 .fontWeight(.bold)

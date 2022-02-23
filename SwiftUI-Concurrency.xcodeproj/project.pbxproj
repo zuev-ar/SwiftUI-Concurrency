@@ -189,12 +189,12 @@
 				D7DCC5EF27B2BC87007ACAD0 /* CourseCard.swift */,
 				D7DCC5F127B2BCC7007ACAD0 /* CourseList.swift */,
 				D716B3E027BC07470062A283 /* SectionList.swift */,
-				D7F5D92B27C51F9400287FF1 /* ProfileIcon.swift */,
 				D7F5D93027C5218A00287FF1 /* GradientButton.swift */,
 				D7F5D92F27C5218A00287FF1 /* GradientIcon.swift */,
 				D7F5D93127C5218A00287FF1 /* ResetPasswordView.swift */,
 				D7F5D92E27C5218A00287FF1 /* SignInView.swift */,
 				D7F5D92D27C5218A00287FF1 /* SignUpView.swift */,
+				D7F5D92B27C51F9400287FF1 /* ProfileIcon.swift */,
 				D7F5D94127C52E3F00287FF1 /* ProfileCard.swift */,
 			);
 			path = Components;
