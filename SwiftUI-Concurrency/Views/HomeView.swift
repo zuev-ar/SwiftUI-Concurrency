@@ -49,6 +49,7 @@ struct HomeView: View {
                 .animation(.easeIn)
                 .frame(height: 0)
         }
+        .navigationBarHidden(true)
     }
 }
 

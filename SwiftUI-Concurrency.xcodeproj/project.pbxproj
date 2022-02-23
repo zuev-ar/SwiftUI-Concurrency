@@ -12,6 +12,15 @@
 		D716B3DD27BC03540062A283 /* SectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716B3DC27BC03540062A283 /* SectionViewModel.swift */; };
 		D716B3DF27BC067F0062A283 /* SectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716B3DE27BC067F0062A283 /* SectionsView.swift */; };
 		D716B3E127BC07470062A283 /* SectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716B3E027BC07470062A283 /* SectionList.swift */; };
+		D7AACEFA27C63015004A11FC /* SectionViewCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACEF327C63014004A11FC /* SectionViewCover.swift */; };
+		D7AACEFB27C63015004A11FC /* CourseViewSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACEF427C63014004A11FC /* CourseViewSubtitle.swift */; };
+		D7AACEFC27C63015004A11FC /* CourseViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACEF527C63014004A11FC /* CourseViewTitle.swift */; };
+		D7AACEFD27C63015004A11FC /* CourseViewCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACEF627C63014004A11FC /* CourseViewCover.swift */; };
+		D7AACEFE27C63015004A11FC /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACEF727C63014004A11FC /* CloseButton.swift */; };
+		D7AACEFF27C63015004A11FC /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACEF827C63014004A11FC /* SectionRow.swift */; };
+		D7AACF0027C63015004A11FC /* SectionViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACEF927C63015004A11FC /* SectionViewTitle.swift */; };
+		D7AACF0227C63049004A11FC /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACF0127C63049004A11FC /* CourseView.swift */; };
+		D7AACF0427C6363B004A11FC /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACF0327C6363B004A11FC /* SectionView.swift */; };
 		D7DCC5D627B2B21A007ACAD0 /* SwiftUI_ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCC5D527B2B21A007ACAD0 /* SwiftUI_ConcurrencyApp.swift */; };
 		D7DCC5D827B2B21A007ACAD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DCC5D727B2B21A007ACAD0 /* ContentView.swift */; };
 		D7DCC5DA27B2B21C007ACAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DCC5D927B2B21C007ACAD0 /* Assets.xcassets */; };
@@ -54,6 +63,15 @@
 		D716B3DC27BC03540062A283 /* SectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel.swift; sourceTree = "<group>"; };
 		D716B3DE27BC067F0062A283 /* SectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsView.swift; sourceTree = "<group>"; };
 		D716B3E027BC07470062A283 /* SectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionList.swift; sourceTree = "<group>"; };
+		D7AACEF327C63014004A11FC /* SectionViewCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SectionViewCover.swift; path = "Assets/Code/17. Navigating Between Views/SectionViewCover.swift"; sourceTree = SOURCE_ROOT; };
+		D7AACEF427C63014004A11FC /* CourseViewSubtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseViewSubtitle.swift; path = "Assets/Code/17. Navigating Between Views/CourseViewSubtitle.swift"; sourceTree = SOURCE_ROOT; };
+		D7AACEF527C63014004A11FC /* CourseViewTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseViewTitle.swift; path = "Assets/Code/17. Navigating Between Views/CourseViewTitle.swift"; sourceTree = SOURCE_ROOT; };
+		D7AACEF627C63014004A11FC /* CourseViewCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseViewCover.swift; path = "Assets/Code/17. Navigating Between Views/CourseViewCover.swift"; sourceTree = SOURCE_ROOT; };
+		D7AACEF727C63014004A11FC /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloseButton.swift; path = "Assets/Code/17. Navigating Between Views/CloseButton.swift"; sourceTree = SOURCE_ROOT; };
+		D7AACEF827C63014004A11FC /* SectionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SectionRow.swift; path = "Assets/Code/17. Navigating Between Views/SectionRow.swift"; sourceTree = SOURCE_ROOT; };
+		D7AACEF927C63015004A11FC /* SectionViewTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SectionViewTitle.swift; path = "Assets/Code/17. Navigating Between Views/SectionViewTitle.swift"; sourceTree = SOURCE_ROOT; };
+		D7AACF0127C63049004A11FC /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		D7AACF0327C6363B004A11FC /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		D7DCC5D227B2B21A007ACAD0 /* SwiftUI-Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Concurrency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DCC5D527B2B21A007ACAD0 /* SwiftUI_ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ConcurrencyApp.swift; sourceTree = "<group>"; };
 		D7DCC5D727B2B21A007ACAD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +176,13 @@
 		D7DCC5E727B2B7D9007ACAD0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D7AACEF727C63014004A11FC /* CloseButton.swift */,
+				D7AACEF627C63014004A11FC /* CourseViewCover.swift */,
+				D7AACEF427C63014004A11FC /* CourseViewSubtitle.swift */,
+				D7AACEF527C63014004A11FC /* CourseViewTitle.swift */,
+				D7AACEF827C63014004A11FC /* SectionRow.swift */,
+				D7AACEF327C63014004A11FC /* SectionViewCover.swift */,
+				D7AACEF927C63015004A11FC /* SectionViewTitle.swift */,
 				D7DCC5E327B2B67C007ACAD0 /* DateTitle.swift */,
 				D7DCC5E927B2B8EE007ACAD0 /* FeaturedCourseCard.swift */,
 				D7DCC5ED27B2BAFF007ACAD0 /* FeaturedCourseList.swift */,
@@ -183,6 +208,8 @@
 				D716B3DE27BC067F0062A283 /* SectionsView.swift */,
 				D7F5D93927C5224E00287FF1 /* ModalManagerView.swift */,
 				D7F5D93B27C5291300287FF1 /* AccountView.swift */,
+				D7AACF0127C63049004A11FC /* CourseView.swift */,
+				D7AACF0327C6363B004A11FC /* SectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,16 +348,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AACF0027C63015004A11FC /* SectionViewTitle.swift in Sources */,
 				D7E2B39C27B569FC0065A26E /* CourseViewModel.swift in Sources */,
 				D7F5D93527C5218A00287FF1 /* GradientButton.swift in Sources */,
 				D7E2B39927B568100065A26E /* Network.swift in Sources */,
 				D7F5D93E27C529BA00287FF1 /* UserModel.swift in Sources */,
 				D7DCC5F227B2BCC7007ACAD0 /* CourseList.swift in Sources */,
+				D7AACEFB27C63015004A11FC /* CourseViewSubtitle.swift in Sources */,
+				D7AACF0227C63049004A11FC /* CourseView.swift in Sources */,
 				D7F5D93C27C5291300287FF1 /* AccountView.swift in Sources */,
 				D716B3DB27BC01D10062A283 /* SectionModel.swift in Sources */,
+				D7AACEFF27C63015004A11FC /* SectionRow.swift in Sources */,
 				D7DCC5D827B2B21A007ACAD0 /* ContentView.swift in Sources */,
+				D7AACF0427C6363B004A11FC /* SectionView.swift in Sources */,
 				D7DCC5E627B2B7D3007ACAD0 /* HomeView.swift in Sources */,
 				D716B3DF27BC067F0062A283 /* SectionsView.swift in Sources */,
+				D7AACEFE27C63015004A11FC /* CloseButton.swift in Sources */,
 				D716B3E127BC07470062A283 /* SectionList.swift in Sources */,
 				D7DFDF1B27BABF29000268C7 /* PreviewData.swift in Sources */,
 				D7DCC5EE27B2BAFF007ACAD0 /* FeaturedCourseList.swift in Sources */,
@@ -342,6 +375,7 @@
 				D7DCC5D627B2B21A007ACAD0 /* SwiftUI_ConcurrencyApp.swift in Sources */,
 				D7DCC5F027B2BC87007ACAD0 /* CourseCard.swift in Sources */,
 				D7DCC5E427B2B67C007ACAD0 /* DateTitle.swift in Sources */,
+				D7AACEFA27C63015004A11FC /* SectionViewCover.swift in Sources */,
 				D7DFDF1727BABED7000268C7 /* LoadFromFile.swift in Sources */,
 				D7E2B39627B5674F0065A26E /* API.swift in Sources */,
 				D7DCC5EA27B2B8EE007ACAD0 /* FeaturedCourseCard.swift in Sources */,
@@ -350,6 +384,8 @@
 				D7F5D93A27C5224E00287FF1 /* ModalManagerView.swift in Sources */,
 				D7F5D93827C521AB00287FF1 /* ModalManager.swift in Sources */,
 				D7F5D93327C5218A00287FF1 /* SignInView.swift in Sources */,
+				D7AACEFD27C63015004A11FC /* CourseViewCover.swift in Sources */,
+				D7AACEFC27C63015004A11FC /* CourseViewTitle.swift in Sources */,
 				D7DFDF1927BABEE4000268C7 /* Extensions.swift in Sources */,
 				D7F5D94227C52E3F00287FF1 /* ProfileCard.swift in Sources */,
 				D7F5D94427C52F7B00287FF1 /* SFSafariViewWrapper.swift in Sources */,

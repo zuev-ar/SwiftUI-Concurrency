@@ -15,7 +15,9 @@ struct CourseList: View {
         LazyVGrid(columns: columns, spacing: 15) {
             if courses.count > 0 {
                 ForEach(courses, id: \.id) { course in
-                    CourseCard(course: course)
+                    NavigationLink(destination: CourseView(course: course)) {
+                        CourseCard(course: course)
+                    }
                 }
             } else {
                 ForEach(0 ..< 4, id: \.self) { number in
